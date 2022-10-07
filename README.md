@@ -6,3 +6,6 @@
 # git flow 모델을 지키고자 합니다.
 #### local feature -> local develop -> local release
 #### remote develop -> Pull Request!! -> remote main
+
+<hr>
+ <p style="color: red; font-weight: bold">PR 이후 까먹지 말고 feature 삭제 후 새롭게 생성 잊지않기</p>
