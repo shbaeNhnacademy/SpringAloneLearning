@@ -1,9 +1,11 @@
 package com.academy.intro.repository;
 
 import com.academy.intro.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository{
     private Map<Long, Member> store = new HashMap<>();
     private static long sequence = 0L;
